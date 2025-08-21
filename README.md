@@ -129,13 +129,3 @@ fastapi-server/
 
 4. **CORS issues**
    - Check if frontend URL is allowed in CORS settings (currently set to "*" for development)
-
-### Debug Commands
-
-```bash
-# Check if environment variables are loaded
-python -c "import os; print('API Key present:', bool(os.getenv('OPENAI_API_KEY')))"
-
-# Check installed packages
-pip list
-```
