@@ -1,4 +1,4 @@
-# FastAPI Server with OpenAI Integration
+# Make Decision FastAPI Server 
 
 A FastAPI server with OpenAI integration for generating reports and AI-powered features for decision support.
 
