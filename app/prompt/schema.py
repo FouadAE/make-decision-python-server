@@ -5,6 +5,7 @@ from pydantic import BaseModel
 
 class GenerateReportRequest(BaseModel):
     country: str
-    project_budget: str
+    project_budget: float
     category: str
     description: str
+    language: str

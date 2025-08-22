@@ -37,9 +37,9 @@ async def health_check():
 async def prompt_handler(request_body: GenerateReportRequest):
     try:
         print(f"Received request body: {request_body}")
-        response = await Service().generate_report(request_body)
+        response = await Service.generate_report(request_body)
     except Exception as e:
-        logger.error(f"Error in generate_cv: {e}")
+        logger.error(f"Error in prompt_handler: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
