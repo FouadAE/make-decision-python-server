@@ -1,4 +1,4 @@
-# FastAPI Server with OpenAI Integration
+# Make Decision FastAPI Server 
 
 A FastAPI server with OpenAI integration for generating reports and AI-powered features for decision support.
 
@@ -129,13 +129,3 @@ fastapi-server/
 
 4. **CORS issues**
    - Check if frontend URL is allowed in CORS settings (currently set to "*" for development)
-
-### Debug Commands
-
-```bash
-# Check if environment variables are loaded
-python -c "import os; print('API Key present:', bool(os.getenv('OPENAI_API_KEY')))"
-
-# Check installed packages
-pip list
-```
