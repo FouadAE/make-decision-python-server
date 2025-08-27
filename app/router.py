@@ -45,6 +45,19 @@ async def prompt_handler(request_body: GenerateReportRequest):
 
     return {"response": response}
 
+@app.post("/prompt-v2")
+async def prompt_handler_v2(request_body: GenerateReportRequest):
+    try:
+        print(f"Received request body: {request_body}")
+        response = await Service.generate_report_v2(request_body)
+    except Exception as e:
+        logger.error(f"Error in prompt_handler: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+    return {"response": response}
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host=os.getenv("HOST"), port=os.getenv("PORT"))

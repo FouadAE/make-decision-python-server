@@ -48,10 +48,9 @@ touch .env
 Edit the `.env` file with your configuration:
 
 ```env
-OPENAI_API_KEY=your_actual_openai_api_key_here
-ENVIRONMENT=development
-PORT=8000
-HOST=0.0.0.0
+OPENAI_API_KEY="your_actual_openai_api_key_here"
+PORT="8000"
+HOST="0.0.0.0"
 ```
 
 **Important:** Get your OpenAI API key from [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
