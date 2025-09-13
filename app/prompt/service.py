@@ -41,13 +41,13 @@ Your task is to evaluate the feasibility of a proposed project based on the foll
 
 Provide your analysis in the exact format below. Use only plain text. Do not use markdown or code blocks.
 
-### Market analysis
+### Market analysis with key market_analysis
 [Insert a concise market insight about demand, competition, or local trends in {country} for {project_category}. Include 1–2 key risks.]
 
-### Marketing strategy
+### Marketing strategy with key marketing_strategy
 [Insert 3 bullet points of actionable marketing strategies. Each point should start with a relevant emoji: 🔍, 🤝, 📱, 🎯, or 💡. Keep each item short and practical.]
 
-### Timing decisions (6 months)
+### Timing decisions (6 months) with key timing_decisions
 [Insert a numbered list of 3 concrete, time-bound actions to take in the first 6 months. Be specific about locations, budgets, or steps.]
 
 Respond in {language}. Use clear, professional language suitable for a business decision-maker.
